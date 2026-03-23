@@ -28,13 +28,17 @@ docker-compose up -d
 
 ### 2. Backend
 
+```bash
 cd backend
 npm install
 npx prisma migrate dev
 npm run start:dev
+```
 
 ### 3. Frontend
 
+```bash
 cd frontend
 npm install
 npm run dev
+```
